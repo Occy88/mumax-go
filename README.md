@@ -6,7 +6,7 @@ Execute this to use GOPATH explicitly, to be depreciated once scripts are fixed:
 add the following to `~/.bashrc`:
 - `export GOPATH="$HOME/go"`
 - `export PATH="$GOPATH/bin:$PATH"`
-
+**don't forget to activate the environment: `. ~/.bashrc`**
 
 ## GO file setup:
 - Move `go/` to `~/` directory in your server
