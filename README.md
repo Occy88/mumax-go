@@ -1,6 +1,6 @@
 # GO CONFIGURATION WITH MUMAX
 ## ENVIRONMENT SETUP:
-helpful commands:
+Execute this to use GOPATH explicitly, to be depreciated once scripts are fixed:
 - `go env -w GO111MODULE=off`
 
 add the following to `~/.bashrc`:
