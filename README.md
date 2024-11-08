@@ -10,6 +10,7 @@ add the following to `~/.bashrc`:
 **don't forget to activate the environment: `. ~/.bashrc`**
 
 ## GO file setup:
-- Move `go/` to `~/` directory in your server
+- Clone this repostitory onto your server
+- Move `go/` to `~/` directory in your server: `mv ~/mumax-go/go ~/`
 - execute: `cd ~/go/src/github.com/mumax && rm -rf 3 && git clone https://github.com/mumax/3`
 - The above steps makes sure that the mumax/3 directory is properly cloned from https://github.com/mumax/3 if you get any error, fix it manually.
